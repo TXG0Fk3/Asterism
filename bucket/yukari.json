@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0-Alpha",
+  "description": "Yukari is a modern, extensible comic and manga reader for Windows. Built with WinUI 3 and .NET 10, it features a plugin-based architecture for dynamic source integration and a fast, local SQLite-backed library.",
+  "homepage": "https://github.com/Yukari-App/Yukari",
+  "license": "GPL-3.0-or-later",
+  "url": "https://github.com/Yukari-App/Yukari/releases/download/0.1.0-Alpha/Yukari.Setup.exe",
+  "bin": "Yukari.exe",
+  "hash": "0ac1f6ce57bc759300960d118b0a05db6bb4f029616268dff176570d509b07fb",
+  "innosetup": true,
+  "shortcuts": [
+    [
+      "Yukari.exe",
+      "Yukari"
+    ]
+  ],
+  "autoupdate": {
+    "url": "https://github.com/Yukari-App/Yukari/releases/download/$version/Yukari.Setup.exe"
+  }
+}
