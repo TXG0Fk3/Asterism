@@ -4,8 +4,8 @@
   "homepage": "https://equibop.org/",
   "license": "GPL-3.0-or-later",
   "url": "https://github.com/Equicord/Equibop/releases/download/v3.1.6/Equibop-3.1.6-win.zip",
-  "bin": "equibop.exe",
   "hash": "e1f8791bff7d927c4a7554239dcbef6a2cd5e15349ae461bdffe3e29a24c2a58",
+  "bin": "equibop.exe",
   "shortcuts": [
     [
       "equibop.exe",
