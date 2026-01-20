@@ -12,6 +12,7 @@
       "Equibop"
     ]
   ],
+  "checkver": "github",
   "autoupdate": {
     "url": "https://github.com/Equicord/Equibop/releases/download/v$version/Equibop-$version-win.zip"
   }

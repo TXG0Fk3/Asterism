@@ -13,6 +13,7 @@
       "YT Downloader"
     ]
   ],
+  "checkver": "github",
   "autoupdate": {
     "url": "https://github.com/TXG0Fk3/YT-Downloader/releases/download/$version/YT-Downloader.Setup.exe"
   }

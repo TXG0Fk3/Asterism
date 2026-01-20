@@ -13,6 +13,7 @@
       "Yukari"
     ]
   ],
+  "checkver": "github",
   "autoupdate": {
     "url": "https://github.com/Yukari-App/Yukari/releases/download/$version/Yukari.Setup.exe"
   }
