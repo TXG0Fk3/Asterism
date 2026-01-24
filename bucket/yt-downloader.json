@@ -3,13 +3,19 @@
   "description": "A program that allows you to download videos, music and playlists from YouTube written in C# and WinUI 3.",
   "homepage": "https://github.com/TXG0Fk3/YT-Downloader",
   "license": "GPL-3.0-or-later",
+  "notes": [
+      "YT-Downloader.Minimal requires manually installing .NET Desktop Runtime . You can download it from the following link:",
+      "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.2-windows-x64-installer",
+      "",
+      "Alternatively, you can install it from Scoop, but you will need admin privileges: extras/windowsdesktop-runtime"
+  ],
   "url": "https://github.com/TXG0Fk3/YT-Downloader/releases/download/2.5.0/YT-Downloader.Minimal.zip",
   "hash": "964ad9ed5d49a027243f726db1c3bd6f0ae23d915ad817efe0183f9ebb54c112",
   "bin": "YT Downloader.exe",
-  "depends": [
-    "main/ffmpeg-shared",
-    "versions/windowsdesktop-runtime-10.0"
-  ],
+  "suggest": {
+    ".NET Desktop Runtime" : "extras/windowsdesktop-runtime"
+  },
+  "depends": "main/ffmpeg-shared",
   "shortcuts": [
     [
       "YT Downloader.exe",
