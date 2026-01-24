@@ -1,12 +1,15 @@
 {
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "A program that allows you to download videos, music and playlists from YouTube written in C# and WinUI 3.",
   "homepage": "https://github.com/TXG0Fk3/YT-Downloader",
   "license": "GPL-3.0-or-later",
-  "url": "https://github.com/TXG0Fk3/YT-Downloader/releases/download/2.4.0/YT-Downloader.Setup.exe",
-  "hash": "0119515c835a7db1542396d5c528cbe9261abc3015a4cb5357ed5a13804c56d4",
+  "url": "https://github.com/TXG0Fk3/YT-Downloader/releases/download/2.5.0/YT-Downloader.Minimal.zip",
+  "hash": "6386960047f7aa1c366b2b039b6e49e8424bc6ead4e95870bea79255723c42c7",
   "bin": "YT Downloader.exe",
-  "innosetup": true,
+  "depends": [
+    "main/ffmpeg-shared",
+    "versions/windowsdesktop-runtime-10.0"
+  ],
   "shortcuts": [
     [
       "YT Downloader.exe",
@@ -15,6 +18,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/TXG0Fk3/YT-Downloader/releases/download/$version/YT-Downloader.Setup.exe"
+    "url": "https://github.com/TXG0Fk3/YT-Downloader/releases/download/$version/YT-Downloader.Minimal.zip"
   }
 }
