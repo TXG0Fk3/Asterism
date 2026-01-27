@@ -9,8 +9,8 @@
   "depends": "main/ffmpeg-shared",
   "post_install": [
     "if (!(Test-Path \"$HOME\\.spotiflac\")) { New-Item -ItemType Directory -Path \"$HOME\\.spotiflac\" | Out-Null }",
-    "New-Item -ItemType SymbolicLink -Path \"$HOME\\.spotiflac\\ffmpeg.exe\" -Target (Get-Command ffmpeg | Select-Object -ExpandProperty Source) | Out-Null",
-    "New-Item -ItemType SymbolicLink -Path \"$HOME\\.spotiflac\\ffprobe.exe\" -Target (Get-Command ffprobe | Select-Object -ExpandProperty Source) | Out-Null"
+    "New-Item -ItemType SymbolicLink -Path \"$HOME\\.spotiflac\\ffmpeg.exe\" -Target (Get-Command ffmpeg | Select-Object -ExpandProperty Source) -Force | Out-Null",
+    "New-Item -ItemType SymbolicLink -Path \"$HOME\\.spotiflac\\ffprobe.exe\" -Target (Get-Command ffprobe | Select-Object -ExpandProperty Source) -Force | Out-Null"
   ],
   "shortcuts": [
     [
