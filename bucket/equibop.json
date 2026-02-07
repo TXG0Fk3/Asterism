@@ -1,10 +1,10 @@
 {
-  "version": "3.1.7",
+  "version": "3.1.8",
   "description": "Equibop is a customizable and privacy friendly Discord desktop app!",
   "homepage": "https://equibop.org/",
   "license": "GPL-3.0-or-later",
-  "url": "https://github.com/Equicord/Equibop/releases/download/v3.1.7/Equibop-3.1.7-win.zip",
-  "hash": "639fb2e993ac1f5d275c856c4456ba542af686910350b4cbdf88f21cb0069030",
+  "url": "https://github.com/Equicord/Equibop/releases/download/v3.1.8/Equibop-3.1.8-win.zip",
+  "hash": "b3afcecce968cdbe1635a22636ef5e47cdd86f80b443e97be3384e46f17f03d3",
   "bin": "equibop.exe",
   "persist": "Data",
   "shortcuts": [
