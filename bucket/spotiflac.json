@@ -1,10 +1,10 @@
 {
-  "version": "7.0.8",
+  "version": "7.0.9",
   "description": "Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music — no account required.",
   "homepage": "https://github.com/afkarxyz/SpotiFLAC",
   "license": "MIT",
-  "url": "https://github.com/afkarxyz/SpotiFLAC/releases/download/v7.0.8/SpotiFLAC.exe",
-  "hash": "a49970829740bba0885172ff67b43843da611af1eabb10c8f14a29dab3f33dda",
+  "url": "https://github.com/afkarxyz/SpotiFLAC/releases/download/v7.0.9/SpotiFLAC.exe",
+  "hash": "b300561bf05dbbff3a9a6c091554c82c03f83f5242f44154eef7795059395c8a",
   "bin": "SpotiFLAC.exe",
   "depends": "main/ffmpeg-shared",
   "post_install": [
