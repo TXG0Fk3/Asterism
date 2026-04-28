@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "notes": [
     "YTDownloader.Minimal requires manually installing .NET Desktop Runtime . You can download it from the following link:",
-    "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.2-windows-x64-installer",
+    "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.7-windows-x64-installer",
     "",
     "Alternatively, you can install it from Scoop, but you will need admin privileges: extras/windowsdesktop-runtime"
   ],
