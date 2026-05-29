@@ -9,7 +9,7 @@
     "",
     "Alternatively, you can install it from Scoop, but you will need admin privileges: extras/windowsdesktop-runtime"
   ],
-  "url": "https://github.com/Yukari-App/Yukari/releases/download/0.6.0-Alpha/Yukari.Minimal.zip",
+  "url": "https://github.com/Yukari-App/Yukari/releases/download/0.6.0-Alpha/Yukari.Minimal.x64.zip",
   "hash": "dacec3ccb7aee3a3064e94f434b967c7fa322af48bfe7aa0acf0e110b7de60b3",
   "bin": "Yukari.exe",
   "suggest": {
@@ -23,6 +23,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/Yukari-App/Yukari/releases/download/$version/Yukari.Minimal.zip"
+    "url": "https://github.com/Yukari-App/Yukari/releases/download/$version/Yukari.Minimal.x64.zip"
   }
 }
