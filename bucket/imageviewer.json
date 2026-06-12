@@ -1,0 +1,19 @@
+{
+  "version": "1.2.0",
+  "description": "Simple image viewer for Windows.",
+  "homepage": "https://github.com/dragonofmercy/image-viewer",
+  "license": "BSD-3-Clause",
+  "url": "https://github.com/dragonofmercy/image-viewer/releases/download/v1.2.0/Dragon.ImageViewer-win-Portable.zip",
+  "hash": "718ec5a8554fab3dbb4d183f1d633b8b81480ac3a1b0bc89b34b64e8c571e444",
+  "bin": "current/ImageViewer.exe",
+  "shortcuts": [
+    [
+      "current/ImageViewer.exe",
+      "Image Viewer"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://github.com/dragonofmercy/image-viewer/releases/download/v$version/Dragon.ImageViewer-win-Portable.zip"
+  }
+}
