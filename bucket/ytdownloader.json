@@ -1,5 +1,5 @@
 {
-  "version": "2.6.1",
+  "version": "2.6.2",
   "description": "A program that allows you to download videos, music and playlists from YouTube written in C# and WinUI 3.",
   "homepage": "https://github.com/TXG0Fk3/YTDownloader",
   "license": "GPL-3.0-or-later",
@@ -9,8 +9,8 @@
     "",
     "Alternatively, you can install it from Scoop, but you will need admin privileges: extras/windowsdesktop-runtime"
   ],
-  "url": "https://github.com/TXG0Fk3/YTDownloader/releases/download/2.6.1/YTDownloader.Minimal.x64.zip",
-  "hash": "1054ea61e7adfcff271bdde78a1f923175bceff1c1587142acb38e37d9bef750",
+  "url": "https://github.com/TXG0Fk3/YTDownloader/releases/download/2.6.2/YTDownloader.Minimal.x64.zip",
+  "hash": "7fdbe942cadb0fc13db45b35567a67a344e8c6f0dcee864190249fb287b183be",
   "bin": "YTDownloader.exe",
   "suggest": {
     ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
